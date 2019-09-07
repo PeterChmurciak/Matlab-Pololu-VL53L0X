@@ -1,6 +1,6 @@
 # Matlab Pololu VL53L0X
 
-Matlab add-on that allows Matlab to receive data from the VL53L0X distance sensor through an Arduino board. It is based on [Pololu library](https://github.com/pololu/vl53l0x-arduino) and was inspired by [similiar add-on](https://github.com/sandorcourane/matlab-vl53l0x) that uses [Adafruit library](https://github.com/adafruit/Adafruit_VL53L0X).
+Matlab add-on that allows Matlab to receive data from the VL53L0X distance sensor through an Arduino board. It is based on [Pololu library](https://github.com/pololu/vl53l0x-arduino) and was inspired by [similiar add-on](https://github.com/sandorcourane/matlab-vl53l0x) that uses [Adafruit library](https://github.com/adafruit/Adafruit_VL53L0X). Confirmed to work in MATLAB R2019a on Arduino Uno R3.
 
 The add-on was created to suit the needs of [AutomationShield](https://github.com/gergelytakacs/AutomationShield) project. If you are interested in control engineering and/or you want to learn about educative experiments that can be done using Arduino boards, pay a visit to the project [wiki page](https://github.com/gergelytakacs/AutomationShield/wiki).
 
