@@ -2,6 +2,8 @@
 
 Matlab add-on that allows Matlab to receive data from the VL53L0X distance sensor through an Arduino board. It is based on [Pololu library](https://github.com/pololu/vl53l0x-arduino) and was inspired by [similiar add-on](https://github.com/sandorcourane/matlab-vl53l0x) that uses [Adafruit library](https://github.com/adafruit/Adafruit_VL53L0X).
 
+The add-on was created to suit the needs of [AutomationShield](https://github.com/gergelytakacs/AutomationShield) project. If you are interested in control engineering and/or you want to learn about educative experiments that can be done using Arduino boards, pay a visit to the project [wiki page](https://github.com/gergelytakacs/AutomationShield/wiki).
+
 ## How to install
 To be able to work with Arduino in Matlab you have to have [MATLAB Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino-matlab.html) installed. 
 
@@ -42,4 +44,4 @@ You should see the `{'Pololu/Pololu_VL53L0X'}` somewhere in the list of listed l
     
 ## Note
 
-The add-on uses continuous reading mode with 20 millisecond measure timing budget. To modify the timing budget and/or add more functions to the add-on see the functions of the library it uses - [Pololu library functions](https://github.com/pololu/vl53l0x-arduino#library-reference).
+The add-on uses continuous reading mode with 20 millisecond measure timing budget. That means you should not use sampling step size smaller than 0.02 seconds to prevent overrun. To modify the timing budget and/or add more functions to the add-on see the functions of the library it uses - [Pololu library functions](https://github.com/pololu/vl53l0x-arduino#library-reference).
